@@ -1,0 +1,6 @@
+[server]
+# 不要在保存时自动重跑脚本
+runOnSave = false
+
+# 彻底禁用文件监视（避免去解析 torch._classes）
+fileWatcherType = "none"
